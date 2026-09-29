@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <header className="nav">
       <nav className="container nav-inner" aria-label="Navegação principal">
-        <a href="#top" className="logo">m<span>4</span>.dev</a>
+        <a href="#top" className="logo">M<span>4</span>.dev</a>
         <button
           className={`burger ${open ? "open" : ""}`}
           aria-label={open ? "Fechar menu" : "Abrir menu"}
